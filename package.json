@@ -1,9 +1,11 @@
 {
   "name": "delete-x-account",
-  "module": "index.ts",
   "type": "module",
+  "module": "index.ts",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "prettier": "3.3.3",
+    "prettier-plugin-packagejson": "^2.5.3"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
