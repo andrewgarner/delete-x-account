@@ -1,0 +1,14 @@
+name: Set up
+description: Set up the Node.js environment and install the project with a clean slate
+
+branding:
+  color: gray-dark
+  icon: terminal
+
+runs:
+  using: composite
+  steps:
+    - uses: oven-sh/setup-bun@v2
+
+    - run: bun install --frozen-lockfile
+      shell: bash
